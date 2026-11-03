@@ -1,0 +1,60 @@
+/* Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Flex */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    }
+.between{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero{
+    background-image: url(Images/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1042px;
+    border-radius: 0px 0px 0px 200px;
+}
+
+.gap16{
+    gap: 16px;
+}
+
+/* Polices */
+h1,h2,h3{
+    font-family: serif
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+}
+p,a{
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+}
+
+h1{
+    width: 567px;
+    height: 287px;
+}
+
+.container{
+    background-image: #292F36;
+}
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
